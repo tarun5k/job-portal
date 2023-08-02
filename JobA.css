@@ -1,0 +1,160 @@
+.job-category{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: #f8fafb;
+    color: #707f8c;
+    padding: 84px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-offset-2{
+    display: inline-block;
+    margin-left: 17%;
+    padding: 0px 15px;
+}
+
+.heading{
+    padding: 0px 0 35px 0;
+    display: block;
+}
+.heading h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 34px;
+    color: #334e6f;
+    margin: 0px 0px 10px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 0px 10px;
+    
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.category-box{
+    width: 25%;
+    padding: 0px 15px;
+}
+.box-area{
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 1px lightgray;
+    border-radius: 10px;
+    
+}
+.category-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h4{
+    color: #334e6f;
+    text-align: center;
+    margin: 10px 0 12px 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.category-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category-detail p{
+    color: #26ae61;
+    background-color: #26ae611a;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.category-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #26ae61;
+    margin: 0px 48px 20px;
+    border-radius: 50%;
+}
+.category-icon i{
+    color: white;
+    font-size: 35px;
+}
+
+.newsletter{
+    position: relative;
+    background-image: url(http://utouchdesign.com/themes/envato/escort/assets/img/bg-new.png);
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: #26ae61;
+    padding: 60px 0px;
+}
+
+.light{
+    color: white;
+}
+.light h2{
+    color: white;
+}
+
+.email{
+    /* display: inline; */
+}
+
+.col-md-offset-3{
+    margin-left: 25%;
+}
+.col-md-6{
+    width: 50%;
+}
+.email-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px 0px 20px;
+    padding: 5px 10px;
+}
+span{
+    background-color: #26ae611a;
+    padding: 6px;
+}
+span i{
+    color: #26ae61;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.form-control{
+    padding: 6px 18px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.btn{
+    margin: 0px 0px 5px;
+    padding: 10px 20px;
+    background-color: #26ae61;
+    color: white;
+
+}

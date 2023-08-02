@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.402), rgba(0, 0, 0, 0.347)), url('./459-background.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 450px;
+    
+}
+
+form {
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    width: 450px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: #08ac1e86;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3da000c0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-box {
+    background-color: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-box i {
+    margin-right: 15px;
+    color: #999;
+    margin-left: 10px;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+form p a {
+    text-decoration: none;
+    color: #3c00a0;
+    font-size: 15px;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.remember-forgot a{
+    margin-left: 195px;
+}
+
+.btn-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    flex-basis: 48%;
+    background-color: #00a0037f;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    width: 99%;
+}
+
+.btn.disable {
+    background-color: #eaeaea;
+    color: #555;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #3c00a0;
+    font-weight: bold;
+}
+.register-link p{
+    margin-left: 55px;
+}
+
+/* Additional styles for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .form-box {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}

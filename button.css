@@ -1,0 +1,27 @@
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-150%) scale(0);
+    width: 350px;
+    height: 430px;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: #dfdfdf;
+    z-index: 1;
+   }
